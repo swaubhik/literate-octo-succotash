@@ -3,7 +3,11 @@ import NotFound from "../views/NotFound.vue";
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
-  { path: "/", component: Home, meta: { title: "⚡Vite + ✔️Vue 3 + 🌻Tailwind CSS" } },
+  {
+    path: "/",
+    name: "Home",
+    component: Home,
+  },
   {
     path: "/about",
     meta: { title: "About" },
@@ -13,5 +17,8 @@ export const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import("../views/About.vue"),
   },
-  { path: "/:path(.*)", component: NotFound },
+  {
+    path: "/:path(.*)",
+    component: NotFound,
+  },
 ];
