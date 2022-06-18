@@ -28,15 +28,15 @@
       </div>
     </div>
     <Different />
+    <Shop />
   </div>
 </template>
 <script>
 import Card from "../components/Card.vue";
-
 import Different from "../components/Different.vue";
+import Shop from "../components/Shop.vue";
 
 export default {
-  components: { Card, Different },
+  components: { Card, Different, Shop },
 };
 </script>
-
