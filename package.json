@@ -1,7 +1,7 @@
 {
-  "name": "vite-vue3-router4-tailwind-starter",
-  "private": true,
-  "version": "0.0.0",
+  "name": "dyeus_co",
+  "version": "1.0.0",
+  "description": "frontend task for internship at dyeus.co",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -22,5 +22,21 @@
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
     "vite": "^2.9.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swaubhik/literate-octo-succotash.git"
+  },
+  "keywords": [
+    "vue",
+    "tailwind",
+    "vite"
+  ],
+  "author": "swaubhik",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/swaubhik/literate-octo-succotash/issues"
+  },
+  "homepage": "https://github.com/swaubhik/literate-octo-succotash#readme"
 }
