@@ -26,19 +26,19 @@ export default {
       images: [
         {
           alt: "pexels-ketut-subiyanto",
-          src: "/src/assets/pexels-ketut-subiyanto-4308162.jpg",
+          src: "./pexels-ketut-subiyanto-4308162.jpg",
         },
         {
           alt: "pexels-ketut-subiyanto",
-          src: "/src/assets/pexels-ketut-subiyanto-4308057.jpg",
+          src: "./pexels-ketut-subiyanto-4308057.jpg",
         },
         {
           alt: "pexels-ketut-subiyanto",
-          src: "/src/assets/pexels-ketut-subiyanto-4308049.jpg",
+          src: "./pexels-ketut-subiyanto-4308049.jpg",
         },
         {
           alt: "pexels-ketut-subiyanto",
-          src: "/src/assets/pexels-ketut-subiyanto-4308102-scaled.jpg",
+          src: "./pexels-ketut-subiyanto-4308102-scaled.jpg",
         },
       ],
     };
