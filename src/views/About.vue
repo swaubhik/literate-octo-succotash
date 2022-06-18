@@ -27,5 +27,16 @@
         </span>
       </div>
     </div>
+    <Different />
   </div>
 </template>
+<script>
+import Card from "../components/Card.vue";
+
+import Different from "../components/Different.vue";
+
+export default {
+  components: { Card, Different },
+};
+</script>
+
