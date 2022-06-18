@@ -1,31 +1,31 @@
 <template>
-  <div>
-    <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-      <h2 class="text-3xl font-extrabold leading-9 tracking-tight text-slate-800 sm:text-4xl sm:leading-10">
-        About Page
-        <br />
-        <br />
-        <span class="text-sky-500">Vite + Vue 3 + Tailwind CSS</span>
-      </h2>
-      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-        <div class="inline-flex rounded-md shadow">
-          <router-link
-            to="/"
-            class="inline-flex items-center justify-center rounded-md border border-transparent bg-sky-500 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-sky-600 focus:outline-none shadow-lg shadow-sky-500"
-            >Back Home</router-link
-          >
+  <div class="text-primary md:text-lg">
+    <div class="px-8 py-10 bg-gradient-to-b from-[#FFF6FB] via-[#E7F6FC] to-[rgba(213,224,255,0)]">
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center space-y-10 items-center">
+          <h1 class="font-phil font-semibold md:text-6xl text-4xl">About Diana</h1>
+          <p class="font-quicksand mt-9">A platform that looks out for you</p>
+          <p class="font-poppins text-gray-900 px-10">
+            Diana empowers you to understand how your body works so you can look and feel your best.
+          </p>
+
+          <span class="container border-b border-solid border-black"></span>
         </div>
-        <Button />
+        <div class="py-10 flex flex-col justify-center items-center text-center space-y-10">
+          <h2 class="font-poppins text-2xl font-bold">Our Philosophy</h2>
+          <p class="font-phil text-center text-4xl">Sustainable wellness is a big-picture, inside out approach</p>
+          <p class="font-sans text-base leading-9 px-8 font-bold">
+            Diana is on a mission to create thoughtful, science-backed solutions for women who want to make informed
+            decisions about their health and wellness.
+          </p>
+          <p class="text-base font-sans px-8 font-bold">That’s why we’ve created an integrated ecosystem of:</p>
+        </div>
+        <Card class="p-10" />
+        <span class="text-center font-sans text-base"
+          >Consider us your nerdy ally who spends their time perfecting products that work because they want you to feel
+          your best everyday.
+        </span>
       </div>
     </div>
   </div>
 </template>
-<script>
-import Button from "../components/Button.vue";
-
-export default {
-  components: {
-    Button,
-  },
-};
-</script>
