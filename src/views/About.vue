@@ -32,6 +32,7 @@
     <TrackMood />
     <TrackPeriod />
     <Wellness />
+    <Personalised />
   </div>
 </template>
 <script>
@@ -41,8 +42,9 @@ import Shop from "../components/Shop.vue";
 import TrackMood from "../components/TrackMood.vue";
 import TrackPeriod from "../components/TrackPeriod.vue";
 import Wellness from "../components/Wellness.vue";
+import Personalised from "../components/Personalised.vue";
 
 export default {
-  components: { Card, Different, Shop, TrackMood, TrackPeriod, Wellness },
+  components: { Card, Different, Shop, TrackMood, TrackPeriod, Wellness, Personalised },
 };
 </script>
