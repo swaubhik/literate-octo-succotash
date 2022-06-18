@@ -30,6 +30,7 @@
     <Different />
     <Shop />
     <TrackMood />
+    <TrackPeriod />
   </div>
 </template>
 <script>
@@ -37,8 +38,9 @@ import Card from "../components/Card.vue";
 import Different from "../components/Different.vue";
 import Shop from "../components/Shop.vue";
 import TrackMood from "../components/TrackMood.vue";
+import TrackPeriod from "../components/TrackPeriod.vue";
 
 export default {
-  components: { Card, Different, Shop, TrackMood },
+  components: { Card, Different, Shop, TrackMood, TrackPeriod },
 };
 </script>
