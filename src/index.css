@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Philosopher:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@700&display=swap');
 @tailwind base;
+
 @tailwind components;
+
+
+.image{
+    background:linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%),
+        url(./assets/check.png);
+}
 @tailwind utilities;
