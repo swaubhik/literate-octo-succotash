@@ -33,6 +33,14 @@
     <TrackPeriod />
     <Wellness />
     <Personalised />
+    <div
+      class="bg-gradient-to-b relative form-[#FFF6B] to-[#E7F6FC] min-h-screen px-8 py-10 flex flex-col space-y-10 justify-center items-center"
+    >
+      <div class="gradient absolute min-h-screen -z-10 container blur-sm"></div>
+      <h5 class="font-phil block font-bold pl-10 text-4xl">
+        With Diana, you’re in control of your health, your every day, and your story.
+      </h5>
+    </div>
   </div>
 </template>
 <script>
@@ -48,3 +56,10 @@ export default {
   components: { Card, Different, Shop, TrackMood, TrackPeriod, Wellness, Personalised },
 };
 </script>
+<style scoped>
+.gradient {
+  background: linear-gradient(156.97deg, rgba(255, 10, 186, 0.52) 0%, rgba(24, 160, 251, 0.52) 86.68%);
+  opacity: 0.33;
+  filter: blur(90px);
+}
+</style>
